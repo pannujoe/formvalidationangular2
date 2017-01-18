@@ -9,6 +9,9 @@ import { AppComponent } from './app.component';
 import { SimpleFormComponent } from './app.simpleform';
 import { ComplexFormComponent } from './app.complexform';
 import { FormValidationComponent } from './app.formvalidation';
+// Add the login component
+import { LoginComponent } from './app.login'
+
 
 @NgModule({
   declarations: [
@@ -17,6 +20,8 @@ import { FormValidationComponent } from './app.formvalidation';
     SimpleFormComponent,
     ComplexFormComponent,
     FormValidationComponent,
+		 // Add it to our declarations so that we can use this component in our app.
+    LoginComponent
   ],
   imports: [
     BrowserModule,
